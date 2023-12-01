@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Experimenter/1.0.0": {
+        "dependencies": {
+          "Nsu.ColiseumProblem.Contracts": "1.0.0",
+          "Strategy": "1.0.0"
+        },
+        "runtime": {
+          "Experimenter.dll": {}
+        }
+      },
+      "Nsu.ColiseumProblem.Contracts/1.0.0": {
+        "runtime": {
+          "Nsu.ColiseumProblem.Contracts.dll": {}
+        }
+      },
+      "Strategy/1.0.0": {
+        "dependencies": {
+          "Nsu.ColiseumProblem.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "Strategy.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Experimenter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nsu.ColiseumProblem.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Strategy/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
